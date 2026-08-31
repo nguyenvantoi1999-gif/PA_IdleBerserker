@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 3448a0ad3f6688d4e8cd0a2823ea66bd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5585273950716109433
+    second: Jaina_00000-tile_0
+  - first:
+      213: 9056217637513555335
+    second: Jaina_00000-tile_1
+  - first:
+      213: 2354191817526022917
+    second: Jaina_00000-tile_2
+  - first:
+      213: 6458875067297782580
+    second: Jaina_00000-tile_3
+  - first:
+      213: 5004993681976447666
+    second: Jaina_00000-tile_4
+  - first:
+      213: 9064611011851624953
+    second: Jaina_00000-tile_5
+  - first:
+      213: -8899745336999014530
+    second: Jaina_00000-tile_6
+  - first:
+      213: -2986700425591514170
+    second: Jaina_00000-tile_7
+  - first:
+      213: -337819071611887455
+    second: Jaina_00000-tile_8
+  - first:
+      213: -1116491344843638870
+    second: Jaina_00000-tile_9
+  - first:
+      213: -5729557225330551879
+    second: Jaina_00000-tile_10
+  - first:
+      213: -7403252068414536505
+    second: Jaina_00000-tile_11
+  - first:
+      213: 2833437934089687827
+    second: Jaina_00000-tile_12
+  - first:
+      213: -3846342227893762031
+    second: Jaina_00000-tile_13
+  - first:
+      213: -8730119259016880607
+    second: Jaina_00000-tile_14
+  - first:
+      213: 42653713697499481
+    second: Jaina_00000-tile_15
+  - first:
+      213: 5835779177726328115
+    second: Jaina_00000-tile_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jaina_00000-tile_0
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1329
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78dd2521fee1d72b0800000000000000
+      internalID: -5585273950716109433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaina_00000-tile_1
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1314
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d6f9c95f52ead70800000000000000
+      internalID: 9056217637513555335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaina_00000-tile_2
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1313
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50315c82cf4cba020800000000000000
+      internalID: 2354191817526022917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaina_00000-tile_3
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1177
+        width: 79
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b59e237a882a950800000000000000
+      internalID: 6458875067297782580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaina_00000-tile_4
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1176
+        width: 81
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2d7457c3f457540800000000000000
+      internalID: 5004993681976447666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaina_00000-tile_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1173
+        width: 257
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1a28c50b7fbcd70800000000000000
+      internalID: 9064611011851624953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaina_00000-tile_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1045
+        width: 512
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f0cb4d4c0cd7480800000000000000
+      internalID: -8899745336999014530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaina_00000-tile_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 917
+        width: 512
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb1c1289cb1d86d0800000000000000
+      internalID: -2986700425591514170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaina_00000-tile_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 789
+        width: 512
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a0a83e1853df4bf0800000000000000
+      internalID: -337819071611887455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaina_00000-tile_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 661
+        width: 512
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7fbcb890d6180f0800000000000000
+      internalID: -1116491344843638870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaina_00000-tile_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 533
+        width: 512
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b356ef5f068c70b0800000000000000
+      internalID: -5729557225330551879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaina_00000-tile_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 404
+        width: 512
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4c977c77d524990800000000000000
+      internalID: -7403252068414536505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaina_00000-tile_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 274
+        width: 512
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3135882f9c4625720800000000000000
+      internalID: 2833437934089687827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaina_00000-tile_13
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 274
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 118cecd5f1c0f9ac0800000000000000
+      internalID: -3846342227893762031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaina_00000-tile_14
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 274
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e908fb9c268d680800000000000000
+      internalID: -8730119259016880607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaina_00000-tile_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 146
+        width: 512
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9596a4d9359879000800000000000000
+      internalID: 42653713697499481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaina_00000-tile_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 385
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33dbffb2e3adcf050800000000000000
+      internalID: 5835779177726328115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Jaina_00000-tile_0: -5585273950716109433
+      Jaina_00000-tile_1: 9056217637513555335
+      Jaina_00000-tile_10: -5729557225330551879
+      Jaina_00000-tile_11: -7403252068414536505
+      Jaina_00000-tile_12: 2833437934089687827
+      Jaina_00000-tile_13: -3846342227893762031
+      Jaina_00000-tile_14: -8730119259016880607
+      Jaina_00000-tile_15: 42653713697499481
+      Jaina_00000-tile_16: 5835779177726328115
+      Jaina_00000-tile_2: 2354191817526022917
+      Jaina_00000-tile_3: 6458875067297782580
+      Jaina_00000-tile_4: 5004993681976447666
+      Jaina_00000-tile_5: 9064611011851624953
+      Jaina_00000-tile_6: -8899745336999014530
+      Jaina_00000-tile_7: -2986700425591514170
+      Jaina_00000-tile_8: -337819071611887455
+      Jaina_00000-tile_9: -1116491344843638870
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

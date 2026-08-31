@@ -1,0 +1,2834 @@
+fileFormatVersion: 2
+guid: 56298d6594b474dac89ca1a90bd77e02
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6635644704590818926
+    second: Berserker_Skin00_0
+  - first:
+      213: -687193184002604603
+    second: Berserker_Skin00_1
+  - first:
+      213: 3689383012043779725
+    second: Berserker_Skin00_2
+  - first:
+      213: -4159567039531992884
+    second: Berserker_Skin00_3
+  - first:
+      213: 4205410508364235597
+    second: Berserker_Skin00_4
+  - first:
+      213: -2583615792104316821
+    second: Berserker_Skin00_5
+  - first:
+      213: 3077292334604266000
+    second: Berserker_Skin00_6
+  - first:
+      213: 7748329890982412044
+    second: Berserker_Skin00_7
+  - first:
+      213: -2581467091195214932
+    second: Berserker_Skin00_8
+  - first:
+      213: -1699939249558026501
+    second: Berserker_Skin00_9
+  - first:
+      213: 4331371028083531686
+    second: Berserker_Skin00_10
+  - first:
+      213: 3377383520310346284
+    second: Berserker_Skin00_11
+  - first:
+      213: -4314829733563493510
+    second: Berserker_Skin00_12
+  - first:
+      213: 3304738228136043435
+    second: Berserker_Skin00_13
+  - first:
+      213: 1116834771884870638
+    second: Berserker_Skin00_14
+  - first:
+      213: 8339369704798234427
+    second: Berserker_Skin00_15
+  - first:
+      213: 7865161227240658939
+    second: Berserker_Skin00_16
+  - first:
+      213: 4758308990767688060
+    second: Berserker_Skin00_17
+  - first:
+      213: -7439879215479007906
+    second: Berserker_Skin00_18
+  - first:
+      213: 4271700765979964963
+    second: Berserker_Skin00_19
+  - first:
+      213: 1441088540735134526
+    second: Berserker_Skin00_20
+  - first:
+      213: 8444046225296411399
+    second: Berserker_Skin00_21
+  - first:
+      213: 2411275960958212753
+    second: Berserker_Skin00_22
+  - first:
+      213: -7965668171583240044
+    second: Berserker_Skin00_23
+  - first:
+      213: 8110668251921440382
+    second: Berserker_Skin00_24
+  - first:
+      213: -2561063500976608672
+    second: Berserker_Skin00_25
+  - first:
+      213: 16766452373334401
+    second: Berserker_Skin00_26
+  - first:
+      213: -3856473814297921016
+    second: Berserker_Skin00_27
+  - first:
+      213: 2257056567255656854
+    second: Berserker_Skin00_28
+  - first:
+      213: 1088548327867893921
+    second: Berserker_Skin00_29
+  - first:
+      213: -8105589942373623659
+    second: Berserker_Skin00_30
+  - first:
+      213: -6824858746255630633
+    second: Berserker_Skin00_31
+  - first:
+      213: -9203411380692760628
+    second: Berserker_Skin00_32
+  - first:
+      213: 6408861433096923852
+    second: Berserker_Skin00_33
+  - first:
+      213: 6143938206363787543
+    second: Berserker_Skin00_34
+  - first:
+      213: -3057763610291863204
+    second: Berserker_Skin00_35
+  - first:
+      213: -8514502983139013689
+    second: Berserker_Skin00_36
+  - first:
+      213: 186262096165453927
+    second: Berserker_Skin00_37
+  - first:
+      213: -951923907563774281
+    second: Berserker_Skin00_38
+  - first:
+      213: -6140882559441050841
+    second: Berserker_Skin00_39
+  - first:
+      213: -4050630976009246985
+    second: Berserker_Skin00_40
+  - first:
+      213: 3109840370849755799
+    second: Berserker_Skin00_41
+  - first:
+      213: -839382323769889716
+    second: Berserker_Skin00_42
+  - first:
+      213: -8698583751986078525
+    second: Berserker_Skin00_43
+  - first:
+      213: -6187068241067645440
+    second: Berserker_Skin00_44
+  - first:
+      213: 6451592576801937848
+    second: Berserker_Skin00_45
+  - first:
+      213: 1220347856526934771
+    second: Berserker_Skin00_46
+  - first:
+      213: -5949707472780560353
+    second: Berserker_Skin00_47
+  - first:
+      213: -5904894752873502963
+    second: Berserker_Skin00_48
+  - first:
+      213: 6891308102142522354
+    second: Berserker_Skin00_49
+  - first:
+      213: -2376830226997607821
+    second: Berserker_Skin00_50
+  - first:
+      213: 8190557564628975059
+    second: Berserker_Skin00_51
+  - first:
+      213: 2708416949005036815
+    second: Berserker_Skin00_52
+  - first:
+      213: 8324199880826128229
+    second: Berserker_Skin00_53
+  - first:
+      213: 568833950558873924
+    second: Berserker_Skin00_54
+  - first:
+      213: 5228778018147285119
+    second: Berserker_Skin00_55
+  - first:
+      213: -3309088878744734884
+    second: Berserker_Skin00_56
+  - first:
+      213: 5022740017898444857
+    second: Berserker_Skin00_57
+  - first:
+      213: -6827845590867051920
+    second: Berserker_Skin00_58
+  - first:
+      213: 2515757177365274283
+    second: Berserker_Skin00_59
+  - first:
+      213: -5830963880691381204
+    second: Berserker_Skin00_60
+  - first:
+      213: 6050309452427436157
+    second: Berserker_Skin00_61
+  - first:
+      213: -1893086742502031405
+    second: Berserker_Skin00_62
+  - first:
+      213: 4210250313478666788
+    second: Berserker_Skin00_63
+  - first:
+      213: 848210589229103295
+    second: Berserker_Skin00_64
+  - first:
+      213: -7210474041922411872
+    second: Berserker_Skin00_65
+  - first:
+      213: 9050158139114868512
+    second: Berserker_Skin00_66
+  - first:
+      213: 2558700823220708677
+    second: Berserker_Skin00_67
+  - first:
+      213: -4090339664854634886
+    second: Berserker_Skin00_68
+  - first:
+      213: -3862883216866259724
+    second: Berserker_Skin00_69
+  - first:
+      213: -1772833971535841735
+    second: Berserker_Skin00_70
+  - first:
+      213: -692879710798055330
+    second: Berserker_Skin00_71
+  - first:
+      213: 3106306761711162329
+    second: Berserker_Skin00_72
+  - first:
+      213: 7037617881176148353
+    second: Berserker_Skin00_73
+  - first:
+      213: -2481159000165796616
+    second: Berserker_Skin00_74
+  - first:
+      213: 3278539756955869708
+    second: Berserker_Skin00_75
+  - first:
+      213: 842838913023133349
+    second: Berserker_Skin00_76
+  - first:
+      213: -8853199402172771117
+    second: Berserker_Skin00_77
+  - first:
+      213: 5827603250353946029
+    second: Berserker_Skin00_78
+  - first:
+      213: -3866541443322513178
+    second: Berserker_Skin00_79
+  - first:
+      213: -5033173456455687504
+    second: Berserker_Skin00_80
+  - first:
+      213: 2656547323056930144
+    second: Berserker_Skin00_81
+  - first:
+      213: 3753957893345584767
+    second: Berserker_Skin00_82
+  - first:
+      213: -277521578921079879
+    second: Berserker_Skin00_83
+  - first:
+      213: 8358110060957387040
+    second: Berserker_Skin00_84
+  - first:
+      213: 8590336840610049136
+    second: Berserker_Skin00_85
+  - first:
+      213: 539391759174669889
+    second: Berserker_Skin00_86
+  - first:
+      213: 5692124829987297624
+    second: Berserker_Skin00_87
+  - first:
+      213: -69245911244213850
+    second: Berserker_Skin00_88
+  - first:
+      213: -3609333464713008197
+    second: Berserker_Skin00_89
+  - first:
+      213: -5764994228149266790
+    second: Berserker_Skin00_90
+  - first:
+      213: -4734368250131458914
+    second: Berserker_Skin00_91
+  - first:
+      213: 511905536610993524
+    second: Berserker_Skin00_92
+  - first:
+      213: -9097202346368086310
+    second: Berserker_Skin00_93
+  - first:
+      213: 8557617468159757108
+    second: Berserker_Skin00_94
+  - first:
+      213: 1023496681758084931
+    second: Berserker_Skin00_95
+  - first:
+      213: 4698736052513209193
+    second: Berserker_Skin00_96
+  - first:
+      213: 5388386763768979761
+    second: Berserker_Skin00_97
+  - first:
+      213: 8515176005816716921
+    second: Berserker_Skin00_98
+  - first:
+      213: 3856666035732269459
+    second: Berserker_Skin00_99
+  - first:
+      213: -9056835445161108368
+    second: Berserker_Skin00_100
+  - first:
+      213: 1997621436200467794
+    second: Berserker_Skin00_101
+  - first:
+      213: 2999545962358560170
+    second: Berserker_Skin00_102
+  - first:
+      213: 3533654260183594839
+    second: Berserker_Skin00_103
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Berserker_Skin00_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 987
+        width: 61
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e66d0a3bb861c50800000000000000
+      internalID: 6635644704590818926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 950
+        width: 56
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c18477a0799676f0800000000000000
+      internalID: -687193184002604603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 963
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8eea316d42533330800000000000000
+      internalID: 3689383012043779725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_3
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 964
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8b54dd0df3646c0800000000000000
+      internalID: -4159567039531992884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_4
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 955
+        width: 67
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d43cebd739e9c5a30800000000000000
+      internalID: 4205410508364235597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_5
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 958
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60688b2027252cd0800000000000000
+      internalID: -2583615792104316821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_6
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 946
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01aae1af21db4ba20800000000000000
+      internalID: 3077292334604266000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_7
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 964
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f3c82cbf8978b60800000000000000
+      internalID: 7748329890982412044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_8
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 964
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3c2f59b59cc2cd0800000000000000
+      internalID: -2581467091195214932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_9
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 985
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6895a524a9868e0800000000000000
+      internalID: -1699939249558026501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_10
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 984
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af565f500f1c1c30800000000000000
+      internalID: 4331371028083531686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_11
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 959
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c224b56ea60eede20800000000000000
+      internalID: 3377383520310346284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_12
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 965
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7397a0e735ae14c0800000000000000
+      internalID: -4314829733563493510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_13
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 948
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3e3b3c8e9ccdd20800000000000000
+      internalID: 3304738228136043435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_14
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 947
+        width: 67
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb800bce4bcf7f00800000000000000
+      internalID: 1116834771884870638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_15
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 953
+        width: 55
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37272900946bb370800000000000000
+      internalID: 8339369704798234427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_16
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 956
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7dadaf67aa62d60800000000000000
+      internalID: 7865161227240658939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_17
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 969
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79614601d8e80240800000000000000
+      internalID: 4758308990767688060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_18
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 993
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e55df8d854d30c890800000000000000
+      internalID: -7439879215479007906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 943
+        width: 71
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 326fff6d631284b30800000000000000
+      internalID: 4271700765979964963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_20
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 908
+        width: 74
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b57608466cff310800000000000000
+      internalID: 1441088540735134526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_21
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 916
+        width: 63
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b45cdad474f2570800000000000000
+      internalID: 8444046225296411399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_22
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 919
+        width: 77
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a5a5406b2967120800000000000000
+      internalID: 2411275960958212753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_23
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 911
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 498452a7003447190800000000000000
+      internalID: -7965668171583240044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_24
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 902
+        width: 74
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ed0de8dc1ee8070800000000000000
+      internalID: 8110668251921440382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_25
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 920
+        width: 67
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a2211a056457cd0800000000000000
+      internalID: -2561063500976608672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_26
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 944
+        width: 71
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1892bd5eff09b3000800000000000000
+      internalID: 16766452373334401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_27
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 918
+        width: 64
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a3d259f7d0b7ac0800000000000000
+      internalID: -3856473814297921016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_28
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 916
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6996c315dfca25f10800000000000000
+      internalID: 2257056567255656854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_29
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 903
+        width: 74
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a84963dfec4b1f00800000000000000
+      internalID: 1088548327867893921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_30
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 913
+        width: 77
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59857d584e8238f80800000000000000
+      internalID: -8105589942373623659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_31
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 907
+        width: 76
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de1733412b3941a0800000000000000
+      internalID: -6824858746255630633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_32
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 923
+        width: 39
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc7450c6c1ae64080800000000000000
+      internalID: -9203411380692760628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_33
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 884
+        width: 77
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca617e8489d0f850800000000000000
+      internalID: 6408861433096923852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_34
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 872
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 711a3482f37a34550800000000000000
+      internalID: 6143938206363787543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_35
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 853
+        width: 66
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5100797234a095d0800000000000000
+      internalID: -3057763610291863204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_36
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 862
+        width: 61
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cbcefa06a866d980800000000000000
+      internalID: -8514502983139013689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_37
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 846
+        width: 74
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 760cf0db36cb59200800000000000000
+      internalID: 186262096165453927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_38
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 864
+        width: 70
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be9574ef361ac2f0800000000000000
+      internalID: -951923907563774281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_39
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 841
+        width: 62
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723ef1519d337caa0800000000000000
+      internalID: -6140882559441050841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_40
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 863
+        width: 77
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f666c6a69449c7c0800000000000000
+      internalID: -4050630976009246985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_41
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 898
+        width: 71
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7923ba4375f582b20800000000000000
+      internalID: 3109840370849755799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_42
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 854
+        width: 86
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c24f8493ae954f0800000000000000
+      internalID: -839382323769889716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_43
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 859
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc92e52a2c684780800000000000000
+      internalID: -8698583751986078525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_44
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 861
+        width: 68
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006ef0a173e132aa0800000000000000
+      internalID: -6187068241067645440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_45
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 847
+        width: 63
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b993df3449a88950800000000000000
+      internalID: 6451592576801937848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_46
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 806
+        width: 89
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f282bae8eb8fe010800000000000000
+      internalID: 1220347856526934771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_47
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 801
+        width: 89
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f187d6f83946e6da0800000000000000
+      internalID: -5949707472780560353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_48
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 813
+        width: 86
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0728eaf1899d0ea0800000000000000
+      internalID: -5904894752873502963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_49
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 813
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3f9f90538d2af50800000000000000
+      internalID: 6891308102142522354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_50
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 809
+        width: 81
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3728564608dc30fd0800000000000000
+      internalID: -2376830226997607821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_51
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 808
+        width: 49
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd3918a5b4baa170800000000000000
+      internalID: 8190557564628975059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_52
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 809
+        width: 81
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0da7158dda369520800000000000000
+      internalID: 2708416949005036815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_53
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 844
+        width: 69
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5678df720bf758370800000000000000
+      internalID: 8324199880826128229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_54
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 783
+        width: 84
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4496e37d677e4e700800000000000000
+      internalID: 568833950558873924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_55
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 815
+        width: 47
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f783a0d77e9509840800000000000000
+      internalID: 5228778018147285119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_56
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 793
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5379347231c312d0800000000000000
+      internalID: -3309088878744734884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_57
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 793
+        width: 70
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 938d9f54f6b54b540800000000000000
+      internalID: 5022740017898444857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_58
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 725
+        width: 170
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07af62f4c9e9e31a0800000000000000
+      internalID: -6827845590867051920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_59
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 725
+        width: 66
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae1ff1e2d3c9e220800000000000000
+      internalID: 2515757177365274283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_60
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 727
+        width: 62
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2cc1498e31441fa0800000000000000
+      internalID: -5830963880691381204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_61
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 726
+        width: 71
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70202d146407f350800000000000000
+      internalID: 6050309452427436157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_62
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 727
+        width: 63
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df3a2043a76ab5e0800000000000000
+      internalID: -1893086742502031405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_63
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 746
+        width: 71
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a7f5e6a50dd6a30800000000000000
+      internalID: 4210250313478666788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_64
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 702
+        width: 107
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb8b9b1790375cb00800000000000000
+      internalID: 848210589229103295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_65
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 773
+        width: 101
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a22a05cf004feb90800000000000000
+      internalID: -7210474041922411872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_66
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 702
+        width: 124
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f4d03b0ee989d70800000000000000
+      internalID: 9050158139114868512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_67
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 745
+        width: 98
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 545e19697d4528320800000000000000
+      internalID: 2558700823220708677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_68
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 743
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e26a11fb13c37c0800000000000000
+      internalID: -4090339664854634886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_69
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 723
+        width: 98
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc4ed14e28446ac0800000000000000
+      internalID: -3862883216866259724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_70
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 713
+        width: 28
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9367cd055e0a567e0800000000000000
+      internalID: -1772833971535841735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_71
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 725
+        width: 45
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e587ec5f2956266f0800000000000000
+      internalID: -692879710798055330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_72
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 635
+        width: 254
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d31037ba81db1b20800000000000000
+      internalID: 3106306761711162329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_73
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 702
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18901701d24aaa160800000000000000
+      internalID: 7037617881176148353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_74
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 649
+        width: 115
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f4badbf807219dd0800000000000000
+      internalID: -2481159000165796616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_75
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 575
+        width: 240
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02a95bd986bf7d20800000000000000
+      internalID: 3278539756955869708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_76
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 607
+        width: 120
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6ce9d968d52bb00800000000000000
+      internalID: 842838913023133349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_77
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 635
+        width: 257
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d49acbcc0e132580800000000000000
+      internalID: -8853199402172771117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_78
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 650
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad324db74ecfd050800000000000000
+      internalID: 5827603250353946029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_79
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 593
+        width: 99
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e87f690b09475ac0800000000000000
+      internalID: -3866541443322513178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_80
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 586
+        width: 406
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2a8038863962ab0800000000000000
+      internalID: -5033173456455687504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_81
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 555
+        width: 55
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06db2df17b3fdd420800000000000000
+      internalID: 2656547323056930144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_82
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 436
+        width: 118
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7623ae80dcb81430800000000000000
+      internalID: 3753957893345584767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_83
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 392
+        width: 135
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb47e6289b062cf0800000000000000
+      internalID: -277521578921079879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_84
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 391
+        width: 93
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029cbf831d8fdf370800000000000000
+      internalID: 8358110060957387040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_85
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 548
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c638dc7d1073770800000000000000
+      internalID: 8590336840610049136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_86
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 355
+        width: 191
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146116872fd4c7700800000000000000
+      internalID: 539391759174669889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_87
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 534
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 859d29cef5d7efe40800000000000000
+      internalID: 5692124829987297624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_88
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 536
+        width: 55
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1f32ae53df90ff0800000000000000
+      internalID: -69245911244213850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_89
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 393
+        width: 126
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbbe9df365219edc0800000000000000
+      internalID: -3609333464713008197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_90
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 391
+        width: 256
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a965cf23b40aeffa0800000000000000
+      internalID: -5764994228149266790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_91
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 392
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94d60709252c4eb0800000000000000
+      internalID: -4734368250131458914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_92
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 355
+        width: 77
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47501449f57aa1700800000000000000
+      internalID: 511905536610993524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_93
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 353
+        width: 62
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade41ee3aae30c180800000000000000
+      internalID: -9097202346368086310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_94
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 354
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b07514fb3c2c670800000000000000
+      internalID: 8557617468159757108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_95
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 229
+        width: 143
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f4bf03fc0343e00800000000000000
+      internalID: 1023496681758084931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_96
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 220
+        width: 252
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96bfe577b83453140800000000000000
+      internalID: 4698736052513209193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_97
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 198
+        width: 38
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131edd6763567ca40800000000000000
+      internalID: 5388386763768979761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_98
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 95
+        width: 224
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e82a2467bfb2670800000000000000
+      internalID: 8515176005816716921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_99
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 161
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 399c2257351a58530800000000000000
+      internalID: 3856666035732269459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_100
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 129
+        width: 130
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c5106d528af4280800000000000000
+      internalID: -9056835445161108368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_101
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 159
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d3f64cc1af8bb10800000000000000
+      internalID: 1997621436200467794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_102
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 95
+        width: 454
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5d6d5192780a920800000000000000
+      internalID: 2999545962358560170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Skin00_103
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 95
+        width: 93
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757f949d3df0a0130800000000000000
+      internalID: 3533654260183594839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Berserker_Skin00_0: 6635644704590818926
+      Berserker_Skin00_1: -687193184002604603
+      Berserker_Skin00_10: 4331371028083531686
+      Berserker_Skin00_100: -9056835445161108368
+      Berserker_Skin00_101: 1997621436200467794
+      Berserker_Skin00_102: 2999545962358560170
+      Berserker_Skin00_103: 3533654260183594839
+      Berserker_Skin00_11: 3377383520310346284
+      Berserker_Skin00_12: -4314829733563493510
+      Berserker_Skin00_13: 3304738228136043435
+      Berserker_Skin00_14: 1116834771884870638
+      Berserker_Skin00_15: 8339369704798234427
+      Berserker_Skin00_16: 7865161227240658939
+      Berserker_Skin00_17: 4758308990767688060
+      Berserker_Skin00_18: -7439879215479007906
+      Berserker_Skin00_19: 4271700765979964963
+      Berserker_Skin00_2: 3689383012043779725
+      Berserker_Skin00_20: 1441088540735134526
+      Berserker_Skin00_21: 8444046225296411399
+      Berserker_Skin00_22: 2411275960958212753
+      Berserker_Skin00_23: -7965668171583240044
+      Berserker_Skin00_24: 8110668251921440382
+      Berserker_Skin00_25: -2561063500976608672
+      Berserker_Skin00_26: 16766452373334401
+      Berserker_Skin00_27: -3856473814297921016
+      Berserker_Skin00_28: 2257056567255656854
+      Berserker_Skin00_29: 1088548327867893921
+      Berserker_Skin00_3: -4159567039531992884
+      Berserker_Skin00_30: -8105589942373623659
+      Berserker_Skin00_31: -6824858746255630633
+      Berserker_Skin00_32: -9203411380692760628
+      Berserker_Skin00_33: 6408861433096923852
+      Berserker_Skin00_34: 6143938206363787543
+      Berserker_Skin00_35: -3057763610291863204
+      Berserker_Skin00_36: -8514502983139013689
+      Berserker_Skin00_37: 186262096165453927
+      Berserker_Skin00_38: -951923907563774281
+      Berserker_Skin00_39: -6140882559441050841
+      Berserker_Skin00_4: 4205410508364235597
+      Berserker_Skin00_40: -4050630976009246985
+      Berserker_Skin00_41: 3109840370849755799
+      Berserker_Skin00_42: -839382323769889716
+      Berserker_Skin00_43: -8698583751986078525
+      Berserker_Skin00_44: -6187068241067645440
+      Berserker_Skin00_45: 6451592576801937848
+      Berserker_Skin00_46: 1220347856526934771
+      Berserker_Skin00_47: -5949707472780560353
+      Berserker_Skin00_48: -5904894752873502963
+      Berserker_Skin00_49: 6891308102142522354
+      Berserker_Skin00_5: -2583615792104316821
+      Berserker_Skin00_50: -2376830226997607821
+      Berserker_Skin00_51: 8190557564628975059
+      Berserker_Skin00_52: 2708416949005036815
+      Berserker_Skin00_53: 8324199880826128229
+      Berserker_Skin00_54: 568833950558873924
+      Berserker_Skin00_55: 5228778018147285119
+      Berserker_Skin00_56: -3309088878744734884
+      Berserker_Skin00_57: 5022740017898444857
+      Berserker_Skin00_58: -6827845590867051920
+      Berserker_Skin00_59: 2515757177365274283
+      Berserker_Skin00_6: 3077292334604266000
+      Berserker_Skin00_60: -5830963880691381204
+      Berserker_Skin00_61: 6050309452427436157
+      Berserker_Skin00_62: -1893086742502031405
+      Berserker_Skin00_63: 4210250313478666788
+      Berserker_Skin00_64: 848210589229103295
+      Berserker_Skin00_65: -7210474041922411872
+      Berserker_Skin00_66: 9050158139114868512
+      Berserker_Skin00_67: 2558700823220708677
+      Berserker_Skin00_68: -4090339664854634886
+      Berserker_Skin00_69: -3862883216866259724
+      Berserker_Skin00_7: 7748329890982412044
+      Berserker_Skin00_70: -1772833971535841735
+      Berserker_Skin00_71: -692879710798055330
+      Berserker_Skin00_72: 3106306761711162329
+      Berserker_Skin00_73: 7037617881176148353
+      Berserker_Skin00_74: -2481159000165796616
+      Berserker_Skin00_75: 3278539756955869708
+      Berserker_Skin00_76: 842838913023133349
+      Berserker_Skin00_77: -8853199402172771117
+      Berserker_Skin00_78: 5827603250353946029
+      Berserker_Skin00_79: -3866541443322513178
+      Berserker_Skin00_8: -2581467091195214932
+      Berserker_Skin00_80: -5033173456455687504
+      Berserker_Skin00_81: 2656547323056930144
+      Berserker_Skin00_82: 3753957893345584767
+      Berserker_Skin00_83: -277521578921079879
+      Berserker_Skin00_84: 8358110060957387040
+      Berserker_Skin00_85: 8590336840610049136
+      Berserker_Skin00_86: 539391759174669889
+      Berserker_Skin00_87: 5692124829987297624
+      Berserker_Skin00_88: -69245911244213850
+      Berserker_Skin00_89: -3609333464713008197
+      Berserker_Skin00_9: -1699939249558026501
+      Berserker_Skin00_90: -5764994228149266790
+      Berserker_Skin00_91: -4734368250131458914
+      Berserker_Skin00_92: 511905536610993524
+      Berserker_Skin00_93: -9097202346368086310
+      Berserker_Skin00_94: 8557617468159757108
+      Berserker_Skin00_95: 1023496681758084931
+      Berserker_Skin00_96: 4698736052513209193
+      Berserker_Skin00_97: 5388386763768979761
+      Berserker_Skin00_98: 8515176005816716921
+      Berserker_Skin00_99: 3856666035732269459
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

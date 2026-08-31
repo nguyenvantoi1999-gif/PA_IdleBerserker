@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a90cb64acbbd7f41b3a4f4ea6cad770, type: 3}
+  m_Name: berserker_attack_F
+  m_EditorClassIdentifier: 
+  AnimtaionName: berserker_attack_F
+  DamageDelay: 0.23
+  ShakeImmediately: 1
+  ShakePreset: {fileID: 11400000, guid: f854863d9cfc79446b0c54dcc9542093, type: 2}
+  SlowPreset: {fileID: 0}
+  BlackoutPreset: {fileID: 0}
+  AttackCount: 1
+  SoundName: berserk_sfx_attack_04
+  SoundFX: {fileID: 0}

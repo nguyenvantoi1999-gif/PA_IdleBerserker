@@ -1,0 +1,1183 @@
+fileFormatVersion: 2
+guid: a3ccdf864272b8b48b84b880a68922b8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 136516976693534011
+    second: Mirian 2_00001-tile_0
+  - first:
+      213: -601605720819671325
+    second: Mirian 2_00001-tile_1
+  - first:
+      213: 8481695131440715053
+    second: Mirian 2_00001-tile_2
+  - first:
+      213: 8957917079193932238
+    second: Mirian 2_00001-tile_3
+  - first:
+      213: -3687894360770288081
+    second: Mirian 2_00001-tile_4
+  - first:
+      213: 63160355303174866
+    second: Mirian 2_00001-tile_5
+  - first:
+      213: -7408471674483889
+    second: Mirian 2_00001-tile_6
+  - first:
+      213: -5021984016051387898
+    second: Mirian 2_00001-tile_7
+  - first:
+      213: 5738647555056507844
+    second: Mirian 2_00001-tile_8
+  - first:
+      213: -5966924000215527255
+    second: Mirian 2_00001-tile_9
+  - first:
+      213: 6007659157762649261
+    second: Mirian 2_00001-tile_10
+  - first:
+      213: -4334147390809543537
+    second: Mirian 2_00001-tile_11
+  - first:
+      213: -4801916861345836405
+    second: Mirian 2_00001-tile_12
+  - first:
+      213: -6344063768895621866
+    second: Mirian 2_00001-tile_13
+  - first:
+      213: 8733085587584300434
+    second: Mirian 2_00001-tile_14
+  - first:
+      213: 4022552523226567921
+    second: Mirian 2_00001-tile_15
+  - first:
+      213: -5411320469172906456
+    second: Mirian 2_00001-tile_16
+  - first:
+      213: -1657103835286919777
+    second: Mirian 2_00001-tile_17
+  - first:
+      213: -1695419117344573053
+    second: Mirian 2_00001-tile_18
+  - first:
+      213: 1870248429140545744
+    second: Mirian 2_00001-tile_19
+  - first:
+      213: 7967428998197918659
+    second: Mirian 2_00001-tile_20
+  - first:
+      213: 7725652620640350947
+    second: Mirian 2_00001-tile_21
+  - first:
+      213: -5631546465332709377
+    second: Mirian 2_00001-tile_22
+  - first:
+      213: -6305434299993945715
+    second: Mirian 2_00001-tile_23
+  - first:
+      213: -2666307113678470275
+    second: Mirian 2_00001-tile_24
+  - first:
+      213: 6845631945531299652
+    second: Mirian 2_00001-tile_25
+  - first:
+      213: 4911223597372588324
+    second: Mirian 2_00001-tile_26
+  - first:
+      213: -5513054441806726294
+    second: Mirian 2_00001-tile_27
+  - first:
+      213: -7310653829636704151
+    second: Mirian 2_00001-tile_28
+  - first:
+      213: -1441801194897040977
+    second: Mirian 2_00001-tile_29
+  - first:
+      213: -3784012834181063596
+    second: Mirian 2_00001-tile_30
+  - first:
+      213: -5700986661392602379
+    second: Mirian 2_00001-tile_31
+  - first:
+      213: -3092601339830173318
+    second: Mirian 2_00001-tile_32
+  - first:
+      213: -8644819867523306847
+    second: Mirian 2_00001-tile_33
+  - first:
+      213: -6008224663831774804
+    second: Mirian 2_00001-tile_34
+  - first:
+      213: 9213145612856805567
+    second: Mirian 2_00001-tile_35
+  - first:
+      213: -3074100225724403828
+    second: Mirian 2_00001-tile_36
+  - first:
+      213: 4002643944929413505
+    second: Mirian 2_00001-tile_37
+  - first:
+      213: 8992192091332755755
+    second: Mirian 2_00001-tile_38
+  - first:
+      213: 695720613915522995
+    second: Mirian 2_00001-tile_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1167
+        width: 114
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3dd0ad877105e100800000000000000
+      internalID: 136516976693534011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1168
+        width: 114
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee53bbc8caa6a7f0800000000000000
+      internalID: -601605720819671325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1174
+        width: 114
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d251faab8c805b570800000000000000
+      internalID: 8481695131440715053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_3
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1176
+        width: 114
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec152c85f1ae05c70800000000000000
+      internalID: 8957917079193932238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1047
+        width: 114
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f26ee114e97f1dcc0800000000000000
+      internalID: -3687894360770288081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_5
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1046
+        width: 114
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d2bbbd220460e000800000000000000
+      internalID: 63160355303174866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_6
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1044
+        width: 114
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b8385c80ea5eff0800000000000000
+      internalID: -7408471674483889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_7
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1043
+        width: 115
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 602419f15245e4ab0800000000000000
+      internalID: -5021984016051387898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 913
+        width: 114
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb9e42fb85c3af40800000000000000
+      internalID: 5738647555056507844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_9
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 912
+        width: 113
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a096656c3a313da0800000000000000
+      internalID: -5966924000215527255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_10
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 910
+        width: 108
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daca01e8c2e7f5350800000000000000
+      internalID: 6007659157762649261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_11
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 908
+        width: 102
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c6c9e49e30ad3c0800000000000000
+      internalID: -4334147390809543537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_12
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 779
+        width: 93
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82d5866e0a2c5db0800000000000000
+      internalID: -4801916861345836405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_13
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 778
+        width: 87
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 615fc8e4d9b55f7a0800000000000000
+      internalID: -6344063768895621866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 777
+        width: 80
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295bb017217223970800000000000000
+      internalID: 8733085587584300434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_15
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 777
+        width: 84
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4554d153af2d730800000000000000
+      internalID: 4022552523226567921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_16
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 649
+        width: 87
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 826162524b027e4b0800000000000000
+      internalID: -5411320469172906456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_17
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 649
+        width: 91
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9529cd67d8c009e0800000000000000
+      internalID: -1657103835286919777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_18
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 650
+        width: 93
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3893545ab49a878e0800000000000000
+      internalID: -1695419117344573053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_19
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 649
+        width: 96
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d097ac890574f910800000000000000
+      internalID: 1870248429140545744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_20
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 521
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cbbbbae57ef19e60800000000000000
+      internalID: 7967428998197918659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_21
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 522
+        width: 102
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2755f4028073b60800000000000000
+      internalID: 7725652620640350947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_22
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 523
+        width: 104
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff7bcb5b35ab8d1b0800000000000000
+      internalID: -5631546465332709377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_23
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 524
+        width: 102
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d890c4a69e89e78a0800000000000000
+      internalID: -6305434299993945715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_24
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 396
+        width: 100
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73091b8ecf5ffad0800000000000000
+      internalID: -2666307113678470275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_25
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 394
+        width: 97
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44795781cf1900f50800000000000000
+      internalID: 6845631945531299652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_26
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 394
+        width: 93
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 421c8ed47db282440800000000000000
+      internalID: 4911223597372588324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_27
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 394
+        width: 86
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b78b0d132bd73b0800000000000000
+      internalID: -5513054441806726294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_28
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 266
+        width: 74
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 968b7a053175b8a90800000000000000
+      internalID: -7310653829636704151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_29
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 267
+        width: 64
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa99d65c371bdfbe0800000000000000
+      internalID: -1441801194897040977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_30
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 269
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c5e19306c7c7bc0800000000000000
+      internalID: -3784012834181063596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_31
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 270
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa247a26d602e0b0800000000000000
+      internalID: -5700986661392602379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_32
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 143
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71868b777fd415d0800000000000000
+      internalID: -3092601339830173318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_33
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 145
+        width: 46
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aaa809f12e670880800000000000000
+      internalID: -8644819867523306847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_34
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 146
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9f09d408f7e9ca0800000000000000
+      internalID: -6008224663831774804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_35
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 147
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb8474e1f1babdf70800000000000000
+      internalID: 9213145612856805567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_36
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 20
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8fafb9c12a9655d0800000000000000
+      internalID: -3074100225724403828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_37
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 21
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189c2e3067f3c8730800000000000000
+      internalID: 4002643944929413505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_38
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 21
+        width: 40
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2147fb701faacc70800000000000000
+      internalID: 8992192091332755755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirian 2_00001-tile_39
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 22
+        width: 39
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7f9575632b7a900800000000000000
+      internalID: 695720613915522995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mirian 2_00001-tile_0: 136516976693534011
+      Mirian 2_00001-tile_1: -601605720819671325
+      Mirian 2_00001-tile_10: 6007659157762649261
+      Mirian 2_00001-tile_11: -4334147390809543537
+      Mirian 2_00001-tile_12: -4801916861345836405
+      Mirian 2_00001-tile_13: -6344063768895621866
+      Mirian 2_00001-tile_14: 8733085587584300434
+      Mirian 2_00001-tile_15: 4022552523226567921
+      Mirian 2_00001-tile_16: -5411320469172906456
+      Mirian 2_00001-tile_17: -1657103835286919777
+      Mirian 2_00001-tile_18: -1695419117344573053
+      Mirian 2_00001-tile_19: 1870248429140545744
+      Mirian 2_00001-tile_2: 8481695131440715053
+      Mirian 2_00001-tile_20: 7967428998197918659
+      Mirian 2_00001-tile_21: 7725652620640350947
+      Mirian 2_00001-tile_22: -5631546465332709377
+      Mirian 2_00001-tile_23: -6305434299993945715
+      Mirian 2_00001-tile_24: -2666307113678470275
+      Mirian 2_00001-tile_25: 6845631945531299652
+      Mirian 2_00001-tile_26: 4911223597372588324
+      Mirian 2_00001-tile_27: -5513054441806726294
+      Mirian 2_00001-tile_28: -7310653829636704151
+      Mirian 2_00001-tile_29: -1441801194897040977
+      Mirian 2_00001-tile_3: 8957917079193932238
+      Mirian 2_00001-tile_30: -3784012834181063596
+      Mirian 2_00001-tile_31: -5700986661392602379
+      Mirian 2_00001-tile_32: -3092601339830173318
+      Mirian 2_00001-tile_33: -8644819867523306847
+      Mirian 2_00001-tile_34: -6008224663831774804
+      Mirian 2_00001-tile_35: 9213145612856805567
+      Mirian 2_00001-tile_36: -3074100225724403828
+      Mirian 2_00001-tile_37: 4002643944929413505
+      Mirian 2_00001-tile_38: 8992192091332755755
+      Mirian 2_00001-tile_39: 695720613915522995
+      Mirian 2_00001-tile_4: -3687894360770288081
+      Mirian 2_00001-tile_5: 63160355303174866
+      Mirian 2_00001-tile_6: -7408471674483889
+      Mirian 2_00001-tile_7: -5021984016051387898
+      Mirian 2_00001-tile_8: 5738647555056507844
+      Mirian 2_00001-tile_9: -5966924000215527255
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,132 @@
+
+Monster_00.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_Leg
+  rotate: false
+  xy: 231, 22
+  size: 72, 81
+  orig: 73, 82
+  offset: 1, 1
+  index: -1
+L_arm_01
+  rotate: true
+  xy: 470, 41
+  size: 56, 41
+  orig: 57, 42
+  offset: 0, 1
+  index: -1
+L_arm_02
+  rotate: 180
+  xy: 414, 3
+  size: 61, 48
+  orig: 61, 48
+  offset: 0, 0
+  index: -1
+R_leg
+  rotate: false
+  xy: 362, 18
+  size: 67, 84
+  orig: 67, 84
+  offset: 0, 0
+  index: -1
+arm
+  rotate: false
+  xy: 409, 152
+  size: 45, 70
+  orig: 47, 72
+  offset: 1, 1
+  index: -1
+arm_02
+  rotate: false
+  xy: 427, 41
+  size: 50, 57
+  orig: 51, 58
+  offset: 0, 1
+  index: -1
+armor_01 copy
+  rotate: true
+  xy: 354, 154
+  size: 68, 53
+  orig: 70, 55
+  offset: 1, 1
+  index: -1
+belt
+  rotate: false
+  xy: 403, 118
+  size: 29, 32
+  orig: 31, 34
+  offset: 1, 1
+  index: -1
+body
+  rotate: false
+  xy: 449, 91
+  size: 61, 67
+  orig: 74, 69
+  offset: 5, 1
+  index: -1
+ear
+  rotate: false
+  xy: 302, 9
+  size: 66, 49
+  orig: 66, 50
+  offset: 0, 1
+  index: -1
+ear_Back
+  rotate: false
+  xy: 476, 3
+  size: 25, 36
+  orig: 33, 42
+  offset: 6, 1
+  index: -1
+face
+  rotate: true
+  xy: 296, 137
+  size: 85, 56
+  orig: 87, 58
+  offset: 1, 1
+  index: -1
+hat
+  rotate: true
+  xy: 341, 75
+  size: 78, 100
+  orig: 78, 102
+  offset: 0, 2
+  index: -1
+hat_back
+  rotate: false
+  xy: 231, 21
+  size: 20, 41
+  orig: 23, 43
+  offset: 1, 1
+  index: -1
+hip
+  rotate: false
+  xy: 456, 178
+  size: 43, 44
+  orig: 45, 46
+  offset: 1, 1
+  index: -1
+skirt
+  rotate: false
+  xy: 285, 50
+  size: 70, 85
+  orig: 70, 85
+  offset: 0, 0
+  index: -1
+slash
+  rotate: false
+  xy: 2, 6
+  size: 227, 216
+  orig: 256, 256
+  offset: 2, 11
+  index: -1
+weapon
+  rotate: false
+  xy: 231, 110
+  size: 63, 112
+  orig: 71, 114
+  offset: 1, 1
+  index: -1
