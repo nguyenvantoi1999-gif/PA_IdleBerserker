@@ -3,7 +3,7 @@ using UnityEngine;
 namespace IdleBattle
 {
     // Quái vực thẳm: lao theo vector tới player (tốc độ tăng dần theo Curve),
-    // chạm player thì tự hủy (cảm tử).
+    // tới tầm thì dùng attack state bình thường.
     public class AbyssMonsterObject : MonsterObject
     {
         public AnimationCurve Curve = AnimationCurve.EaseInOut(0f, 0.25f, 1f, 1f);
@@ -45,7 +45,7 @@ namespace IdleBattle
             _fsmAbility.Register(Enum_MonsterStateType.Init, new MonsterInitState(this, sm));
             _fsmAbility.Register(Enum_MonsterStateType.Idle, new MonsterIdleState(this, sm));
             _fsmAbility.Register(Enum_MonsterStateType.Run, new AbyssMonsterRunState(this, sm));
-            _fsmAbility.Register(Enum_MonsterStateType.Attack, new AbyssMonsterAttackState(this, sm));
+            _fsmAbility.Register(Enum_MonsterStateType.Attack, new MonsterAttackState(this, sm));
             _fsmAbility.Register(Enum_MonsterStateType.Hit, new MonsterHitState(this, sm));
             _fsmAbility.Register(Enum_MonsterStateType.Death, new AbyssMonsterDeathState(this, sm));
 

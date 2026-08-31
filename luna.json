@@ -33073,24 +33073,6 @@
                 ]
             },
             {
-                "className": "IdleBattle.AbyssMonsterAttackState",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "ctor",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Init",
-                        "excluded": true
-                    },
-                    {
-                        "name": "Enter_Coroutine",
-                        "excluded": true
-                    }
-                ]
-            },
-            {
                 "className": "IdleBattle.AbyssMonsterDeathState",
                 "staticMethods": [],
                 "instanceMethods": [

@@ -2,13 +2,13 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - VFX
   - Water
   - UI
   - 
@@ -41,3 +41,29 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: FX1
+    uniqueID: 824049247
+    locked: 0
+  - name: Entity
+    uniqueID: 1596041547
+    locked: 0
+  - name: FX2
+    uniqueID: 0
+    locked: 0
+  - name: InGameUI
+    uniqueID: 1976386029
+    locked: 0
+  - name: UI
+    uniqueID: 0
+    locked: 0
+  - name: UIFX
+    uniqueID: 0
+    locked: 0
+  - name: Popup
+    uniqueID: 0
+    locked: 0
+  - name: PopupFX
+    uniqueID: 0
+    locked: 0
+  m_RenderingLayers:
+  - Default

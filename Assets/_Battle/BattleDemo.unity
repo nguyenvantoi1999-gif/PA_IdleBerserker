@@ -139,6 +139,10 @@ PrefabInstance:
       propertyPath: Health
       value: 9999
       objectReference: {fileID: 0}
+    - target: {fileID: 999360831668600628, guid: c80b1531100f24e54b2d8241bec67e85, type: 3}
+      propertyPath: MoveSpeed
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1457189161117322534, guid: c80b1531100f24e54b2d8241bec67e85, type: 3}
       propertyPath: m_Materials.Array.size
       value: 1

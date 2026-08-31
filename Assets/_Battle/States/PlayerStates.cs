@@ -238,18 +238,22 @@ namespace IdleBattle
 
             _anim.PlayAnimation(animName, false, atkSpeed);
 
-            if (useEvent)
+            // Chỉ hủy trong windup. Sau khi đã hit (kể cả hit giết mục tiêu), để animation chạy hết
+            // recovery rồi mới chọn attack tiếp hoặc chạy tới mục tiêu kế.
+            double ar = _owner.Stat[Enum_StatType.AttackRange];
+            float hitTime = duration * 0.4f;
+            float et = 0f;
+            bool aborted = false;
+            while (et < duration)
             {
-                yield return new WaitForSeconds(duration);
-                _anim.AnimationState.Event -= OnSpineEvent;
-                if (!_hit) { DoDamage(); }
+                et += Time.deltaTime;
+                if (!useEvent && !_hit && et >= hitTime) { DoDamage(); }
+                if (!_hit && !_detect.Detect(ar)) { aborted = true; break; }
+                yield return null;
             }
-            else
-            {
-                yield return new WaitForSeconds(duration * 0.4f);
-                DoDamage();
-                yield return new WaitForSeconds(duration * 0.6f);
-            }
+            if (useEvent) { _anim.AnimationState.Event -= OnSpineEvent; }
+            // Kết thúc trọn đòn mà event chưa bắn nhưng vẫn còn mục tiêu -> ra đòn cuối.
+            if (!aborted && !_hit) { DoDamage(); }
 
             if (_owner.IsDeath) { _fsm.ChangeState(Enum_BerserkStateType.Death); yield break; }
             if (BattleManager.Instance.State == Enum_BattleState.Ready) { _fsm.ChangeState(Enum_BerserkStateType.Idle); yield break; }
@@ -315,17 +319,37 @@ namespace IdleBattle
 
         public override IEnumerator Enter_Coroutine()
         {
-            _skill.ResetCooldown();
             float atkSpeed = _attack.GetAttackSpeed();
             string animName = PlayerAnim.Resolve(_anim, _b.IsBerserkMode, "attack_C");
             float duration;
             if (!_anim.TryGetAnimation(animName, atkSpeed, out duration) || duration <= 0f) { duration = 0.8f; }
 
             _anim.PlayAnimation(animName, false, atkSpeed);
-            yield return new WaitForSeconds(duration * 0.45f);
-            if (_feedback != null) { _feedback.OnSkill(); }
-            _skill.Active();
-            yield return new WaitForSeconds(duration * 0.55f);
+
+            // Bỏ cast nếu không còn mục tiêu trong tầm sát thương skill (tránh đứng cast vào khoảng không).
+            double hitR = _owner.Stat[Enum_StatType.AttackRange] + 5.0;
+            float t = 0f, wind = duration * 0.45f;
+            bool aborted = false;
+            while (t < wind)
+            {
+                t += Time.deltaTime;
+                if (!_detect.Detect(hitR)) { aborted = true; break; }
+                yield return null;
+            }
+
+            if (!aborted)
+            {
+                _skill.ResetCooldown();
+                if (_feedback != null) { _feedback.OnSkill(); }
+                _skill.Active();
+                float r = 0f, rec = duration * 0.55f;
+                while (r < rec)
+                {
+                    r += Time.deltaTime;
+                    if (!_detect.Detect(hitR)) { break; }
+                    yield return null;
+                }
+            }
 
             if (_owner.IsDeath) { _fsm.ChangeState(Enum_BerserkStateType.Death); yield break; }
             _fsm.ChangeState(Enum_BerserkStateType.Idle);

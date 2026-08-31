@@ -33,7 +33,9 @@ namespace IdleBattle
 
         public bool HasTarget()
         {
-            double range = _ownerObject.Stat[Enum_StatType.DetectRange] * 2.0;
+            // Chỉ kích skill khi có quái trong TẦM ĐÁNH (không đứng tung skill vào quái còn ở xa;
+            // để player chạy tới mục tiêu kế thay vì kẹt anim). Active vẫn quét AoE rộng hơn khi đã tung.
+            double range = _ownerObject.Stat[Enum_StatType.AttackRange];
             return _detect != null && _detect.Detect(range);
         }
 

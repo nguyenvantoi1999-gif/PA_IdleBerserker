@@ -150,16 +150,15 @@ namespace IdleBattle
         }
     }
 
-    // ===== Abyss Run (lao theo vector, tăng tốc dần, cảm tử khi tới player) =====
+    // ===== Abyss Run (lao theo vector, tăng tốc dần, chuyển sang attack khi tới player) =====
     public class AbyssMonsterRunState : NormalState
     {
         private AnimationAbility _anim;
         private MovementAbility _move;
         private PlayerDetectAbility _detect;
-        private MonsterAttackAbility _attack;
+        private FSMAbility _fsm;
         private AbyssMonsterObject _abyss;
         private bool _isDirected;
-        private bool _isDashing;
         private Vector3 _targetDir = Vector3.left;
 
         public AbyssMonsterRunState(CharacterObject o, StateMachine sm) : base(o, sm) { }
@@ -170,7 +169,7 @@ namespace IdleBattle
             _anim = _owner.GetAbility<AnimationAbility>();
             _move = _owner.GetAbility<MovementAbility>();
             _detect = _owner.GetAbility<PlayerDetectAbility>();
-            _attack = _owner.GetAbility<MonsterAttackAbility>();
+            _fsm = _owner.GetAbility<FSMAbility>();
             _abyss = _owner as AbyssMonsterObject;
         }
 
@@ -194,68 +193,14 @@ namespace IdleBattle
             double attackRange = _owner.Stat[Enum_StatType.AttackRange];
             if (_detect.Detect(attackRange))
             {
-                if (_owner.Position.x <= player.Position.x)
-                {
-                    _attack.Attack();
-                    _owner.Death();
-                    return;
-                }
-                if (!_isDashing)
-                {
-                    _targetDir = (player.Position - _owner.Position).normalized;
-                    _targetDir += Random.insideUnitSphere * 0.2f;
-                    _targetDir.y = 0f;
-                    _targetDir.z = 0f;
-                    _isDashing = true;
-                }
+                _fsm.ChangeState(Enum_MonsterStateType.Attack);
+                return;
             }
 
             float speed = _abyss.GetSpeed(_detect.GetDistance());
             _move.MoveTargetDirection(speed, dt, _targetDir);
             Vector3 lockPos = _owner.transform.position;
             if (lockPos.y != 0f) { lockPos.y = 0f; _owner.transform.position = lockPos; }
-        }
-    }
-
-    // ===== Abyss Attack (lao tới player rồi tự hủy) =====
-    public class AbyssMonsterAttackState : CoroutineState
-    {
-        private MonsterAttackAbility _attack;
-        private PlayerDetectAbility _detect;
-        private FSMAbility _fsm;
-        public AbyssMonsterAttackState(CharacterObject o, StateMachine sm) : base(o, sm) { }
-        public override void Init()
-        {
-            base.Init();
-            _attack = _owner.GetAbility<MonsterAttackAbility>();
-            _detect = _owner.GetAbility<PlayerDetectAbility>();
-            _fsm = _owner.GetAbility<FSMAbility>();
-        }
-        public override IEnumerator Enter_Coroutine()
-        {
-            if (_owner.IsDeath) { yield break; }
-            while (!_attack.IsAttackPossible)
-            {
-                if (_owner.IsDeath) { yield break; }
-                yield return null;
-            }
-            if (!_detect.Detect(_owner.Stat[Enum_StatType.AttackRange])) { _fsm.ChangeState(Enum_MonsterStateType.Idle); yield break; }
-
-            PlayerObject player = BattleManager.Instance.PlayerObject;
-            if (player != null)
-            {
-                Vector3 start = _owner.transform.position;
-                Vector3 target = player.Position;
-                float e = 0f;
-                while (e < 0.3f)
-                {
-                    e += Time.deltaTime;
-                    _owner.transform.position = Vector3.Lerp(start, target, e / 0.6f);
-                    yield return null;
-                }
-            }
-            _attack.Attack();
-            _owner.Death();
         }
     }
 

@@ -1019,9 +1019,27 @@ MonoBehaviour:
     upToDate: 0
     keywords:
       "\L\u2025": []
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 4800000, guid: 53efa1d97f5d9f74285d4330cda14e36, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025":
+      - _STRAIGHT_ALPHA_INPUT
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 4800000, guid: 53efa1d97f5d9f74285d4330cda14e36, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025":
+      - _STRAIGHT_ALPHA_INPUT
   _includedShaderVariants: []
   _excludedShaderVariants: []
-  version: 342
+  version: 462
   _shaderParsedShaders:
   - ParsedSubShaders:
     - Index: 0
