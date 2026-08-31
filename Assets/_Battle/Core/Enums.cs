@@ -68,7 +68,11 @@ namespace IdleBattle
         HP,
         Water,
         Fire,
-        Grass
+        Grass,
+        Poison,
+        PoisonDamage,
+        BurnDamage,
+        Evasion
     }
 
     public enum Enum_CriticalType

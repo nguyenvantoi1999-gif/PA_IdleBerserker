@@ -47,14 +47,6 @@ MonoBehaviour:
     keywords:
       "\L\u2025": []
   - shaderCompilerPlatform: 9
-    shader: {fileID: 10721, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-      "\L\u2025": []
-  - shaderCompilerPlatform: 9
     shader: {fileID: 4800000, guid: 1e8a610c9e01c3648bac42585e5fc676, type: 3}
     passType: 0
     passId: 0
@@ -88,31 +80,6 @@ MonoBehaviour:
     keywords:
       "\L\u2025":
       - _STRAIGHT_ALPHA_INPUT
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 4800000, guid: 041c3ea843ec4e449a48be4702b425eb, type: 3}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-      "\L\u2025": []
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-      "\L\u2025": []
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-      "\L\u2025":
-      - PIXELSNAP_ON
   - shaderCompilerPlatform: 9
     shader: {fileID: 4800000, guid: 145bae762d8de8f4c8fb1b284128fae7, type: 3}
     passType: 0
@@ -177,6 +144,31 @@ MonoBehaviour:
     shader: {fileID: 6, guid: 0000000000000000f000000000000000, type: 0}
     passType: 2
     passId: 1
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025": []
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025": []
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025":
+      - PIXELSNAP_ON
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 10721, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
     subShaderIndex: 0
     upToDate: 0
     keywords:
@@ -805,159 +797,232 @@ MonoBehaviour:
     upToDate: 0
     keywords:
       "\L\u2025": []
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 4800000, guid: 3459952c1a0ef4430bb902b2748bd67d, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025": []
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 4800000, guid: 3459952c1a0ef4430bb902b2748bd67d, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025": []
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 202, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025": []
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 202, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025": []
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 4800000, guid: 322f7b701d11fac4a8318fcf7976f544, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025": []
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 4800000, guid: 322f7b701d11fac4a8318fcf7976f544, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025": []
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025":
+      - UNITY_UI_ALPHACLIP
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025":
+      - UNITY_UI_ALPHACLIP
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 4800000, guid: cdfeee6ddc85afe4a9bf7548c6c37af9, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025": []
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 4800000, guid: cdfeee6ddc85afe4a9bf7548c6c37af9, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025": []
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025": []
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025": []
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 4800000, guid: 3877b6435db937c4d9ac14b109602176, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025":
+      - _BLEND_LERP
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 4800000, guid: 3877b6435db937c4d9ac14b109602176, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025":
+      - _BLEND_LERP
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 4
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025":
+      - _ALPHABLEND_ON
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 4
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025":
+      - _ALPHABLEND_ON
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 4800000, guid: 772c876c2069d0b488fb2840de6e4f6b, type: 3}
+    passType: 4
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025":
+      - DIRECTIONAL
+      - LIGHTPROBE_SH
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 4800000, guid: 772c876c2069d0b488fb2840de6e4f6b, type: 3}
+    passType: 4
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025":
+      - DIRECTIONAL
+      - LIGHTPROBE_SH
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 4800000, guid: bfdbf1e6806701c4cbe42f4b711709ed, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025": []
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 4800000, guid: bfdbf1e6806701c4cbe42f4b711709ed, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025": []
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 4800000, guid: cfdd144ceb76ec942b649cc196c1440c, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025": []
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 4800000, guid: cfdd144ceb76ec942b649cc196c1440c, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025": []
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 4
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025":
+      - _ALPHABLEND_ON
+      - _FADING_ON
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 4
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025":
+      - _ALPHABLEND_ON
+      - _FADING_ON
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 4800000, guid: b68b99c2e57cef4419465c63c527201b, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025": []
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 4800000, guid: b68b99c2e57cef4419465c63c527201b, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025": []
   _includedShaderVariants: []
   _excludedShaderVariants: []
-  version: 248
+  version: 342
   _shaderParsedShaders:
-  - ParsedSubShaders:
-    - Index: 0
-      Passes:
-      - Shader: {fileID: 4800000, guid: 041c3ea843ec4e449a48be4702b425eb, type: 3}
-        ShaderVariants:
-        - ShaderCompilerPlatform: 9
-          NoShaderVariant: 0
-          VertexProgram: "\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS
-            0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define UNITY_UNIFORM\n#else\n#define
-            UNITY_UNIFORM uniform\n#endif\n#define UNITY_SUPPORTS_UNIFORM_LOCATION
-            0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define UNITY_LOCATION(x) layout(location
-            = x)\n#define UNITY_BINDING(x) layout(binding = x, std140)\n#else\n#define
-            UNITY_LOCATION(x)\n#define UNITY_BINDING(x) layout(std140)\n#endif\nuniform
-            \tvec4 hlslcc_mtx4x4unity_ObjectToWorld[4];\nuniform \tvec4 hlslcc_mtx4x4unity_MatrixVP[4];\nin
-            highp vec4 in_POSITION0;\nin highp vec4 in_COLOR0;\nin highp vec2 in_TEXCOORD0;\nout
-            highp vec2 vs_TEXCOORD0;\nout highp vec4 vs_COLOR0;\nvec4 u_xlat0;\nvec4
-            u_xlat1;\nvoid main()\n{\n    vs_TEXCOORD0.xy = in_TEXCOORD0.xy;\n   
-            u_xlat0 = in_POSITION0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];\n   
-            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0] * in_POSITION0.xxxx + u_xlat0;\n   
-            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat0;\n   
-            u_xlat0 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];\n    u_xlat1
-            = u_xlat0.yyyy * hlslcc_mtx4x4unity_MatrixVP[1];\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[0]
-            * u_xlat0.xxxx + u_xlat1;\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[2]
-            * u_xlat0.zzzz + u_xlat1;\n    gl_Position = hlslcc_mtx4x4unity_MatrixVP[3]
-            * u_xlat0.wwww + u_xlat1;\n    vs_COLOR0 = in_COLOR0;\n    return;\n}\n\n"
-          FragmentProgram: "\n#version 300 es\n\nprecision highp float;\nprecision
-            highp int;\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define
-            UNITY_UNIFORM\n#else\n#define UNITY_UNIFORM uniform\n#endif\n#define
-            UNITY_SUPPORTS_UNIFORM_LOCATION 0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define
-            UNITY_LOCATION(x) layout(location = x)\n#define UNITY_BINDING(x) layout(binding
-            = x, std140)\n#else\n#define UNITY_LOCATION(x)\n#define UNITY_BINDING(x)
-            layout(std140)\n#endif\nuniform \tfloat _SpriteFade;\nuniform \tfloat
-            _ShadowLight_Precision_1;\nuniform \tfloat _ShadowLight_Size_1;\nuniform
-            \tvec4 _ShadowLight_Color_1;\nuniform \tfloat _ShadowLight_Intensity_1;\nuniform
-            \tfloat _ShadowLight_PosX_1;\nuniform \tfloat _ShadowLight_PosY_1;\nuniform
-            \tfloat _ShadowLight_NoSprite_1;\nUNITY_LOCATION(0) uniform mediump sampler2D
-            _MainTex;\nin highp  vec2 vs_TEXCOORD0;\nin highp  vec4 vs_COLOR0;\nlayout(location
-            = 0) out highp vec4 SV_Target0;\nvec4 u_xlat0;\nvec4 u_xlat1;\nmediump
-            vec4 u_xlat16_1;\nvec4 u_xlat2;\nmediump float u_xlat16_2;\nvec2 u_xlat3;\nbool
-            u_xlatb3;\nvec2 u_xlat4;\nfloat u_xlat5;\nint u_xlati5;\nint u_xlati10;\nint
-            u_xlati11;\nvec2 u_xlat12;\nfloat u_xlat15;\nint u_xlati16;\nbool u_xlatb16;\nvoid
-            main()\n{\n    u_xlat0.x = trunc(_ShadowLight_Precision_1);\n    u_xlat5
-            = u_xlat0.x * 0.5;\n    u_xlati5 = int(u_xlat5);\n    u_xlati10 = 0 -
-            u_xlati5;\n    u_xlat15 = _ShadowLight_Size_1 * 0.100000001;\n    u_xlat1.x
-            = float(0.0);\n    u_xlat1.y = float(0.0);\n    for(int u_xlati_loop_1
-            = u_xlati10 ; u_xlati_loop_1<u_xlati5 ; u_xlati_loop_1++)\n    {\n       
-            u_xlat2.y = float(u_xlati_loop_1);\n        u_xlat12.xy = u_xlat1.xy;\n       
-            for(int u_xlati_loop_2 = u_xlati10 ; u_xlati_loop_2<u_xlati5 ; u_xlati_loop_2++)\n       
-            {\n            u_xlat2.x = float(u_xlati_loop_2);\n            u_xlat3.xy
-            = u_xlat2.xy / u_xlat0.xx;\n            u_xlat4.x = u_xlat3.x * u_xlat15
-            + (-_ShadowLight_PosX_1);\n            u_xlat4.y = u_xlat3.y * u_xlat15
-            + _ShadowLight_PosY_1;\n            u_xlat3.xy = u_xlat4.xy + vs_TEXCOORD0.xy;\n           
-            u_xlat3.xy = clamp(u_xlat3.xy, 0.0, 1.0);\n            u_xlat16_2 = texture(_MainTex,
-            u_xlat3.xy).w;\n            u_xlat12.x = u_xlat16_2 + u_xlat12.x;\n           
-            u_xlat12.y = u_xlat12.y + 1.0;\n        }\n        u_xlat1.xy = u_xlat12.xy;\n   
-            }\n    u_xlat0.x = u_xlat1.x / u_xlat1.y;\n    u_xlat0.w = u_xlat0.x
-            * _ShadowLight_Intensity_1;\n    u_xlat16_1 = texture(_MainTex, vs_TEXCOORD0.xy);\n   
-            u_xlat0.xyz = _ShadowLight_Color_1.xyz;\n    u_xlat2 = (-u_xlat0) + u_xlat16_1;\n   
-            u_xlat1 = u_xlat16_1.wwww * u_xlat2;\n    u_xlat0 = vec4(vec4(_ShadowLight_NoSprite_1,
-            _ShadowLight_NoSprite_1, _ShadowLight_NoSprite_1, _ShadowLight_NoSprite_1))
-            * u_xlat1 + u_xlat0;\n    SV_Target0.xyz = u_xlat0.xyz * vs_COLOR0.xyz;\n   
-            u_xlat0.x = u_xlat0.w * _SpriteFade;\n    SV_Target0.w = u_xlat0.x *
-            vs_COLOR0.w;\n    return;\n}\n\n"
-          LOD: 0
-          readDepth: 0
-          PassId: 0
-          SubShaderIndex: 0
-          Keywords:
-            "\L\u2025": []
-          Tags:
-          - Key: CanUseSpriteAtlas
-            Value: true
-          - Key: IGNOREPROJECTOR
-            Value: true
-          - Key: PreviewType
-            Value: Plane
-          - Key: QUEUE
-            Value: Transparent
-          - Key: RenderType
-            Value: Transparent
-        DefinedKeywords:
-          "\L\u2025":
-          - STEREO_CUBEMAP_RENDER_ON
-          - STEREO_INSTANCING_ON
-          - STEREO_MULTIVIEW_ON
-          - UNITY_SINGLE_PASS_STEREO
-        KeywordGroups: []
-        KeywordsMinimalCardinality: 0
-        ContainsInvalidVariant: 0
-        VariantStructures:
-        - shaderCompilerPlatform: 9
-          shader: {fileID: 4800000, guid: 041c3ea843ec4e449a48be4702b425eb, type: 3}
-          passType: 0
-          passId: 0
-          subShaderIndex: 0
-          upToDate: 0
-          keywords:
-            "\L\u2025": []
-        CompilationErrors: []
-        HasDepthReader: 0
-        Id: 0
-        SubShaderIndex: 0
-        SerializedObjectId: 0
-        Tags:
-        - Key: CanUseSpriteAtlas
-          Value: true
-        - Key: IGNOREPROJECTOR
-          Value: true
-        - Key: PreviewType
-          Value: Plane
-        - Key: QUEUE
-          Value: Transparent
-        - Key: RenderType
-          Value: Transparent
-        UsePass:
-          shader: 
-          pass: 
-        GrabPassTextureName: 
-        PlatformMask: -1
-      Shader: {fileID: 4800000, guid: 041c3ea843ec4e449a48be4702b425eb, type: 3}
-      Tags:
-      - Key: CanUseSpriteAtlas
-        Value: true
-      - Key: IGNOREPROJECTOR
-        Value: true
-      - Key: PreviewType
-        Value: Plane
-      - Key: QUEUE
-        Value: Transparent
-      - Key: RenderType
-        Value: Transparent
-    Shader: {fileID: 4800000, guid: 041c3ea843ec4e449a48be4702b425eb, type: 3}
-    ShaderPath: Assets/2DxFX/ExtraShaders/Shader/LightGlow.shader
-    ShaderDefinedKeywords:
-    - STEREO_CUBEMAP_RENDER_ON
-    - STEREO_INSTANCING_ON
-    - STEREO_MULTIVIEW_ON
-    - UNITY_SINGLE_PASS_STEREO
-    fallbackShader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-    CompilationErrors: []
-    Variants:
-    - shaderCompilerPlatform: 9
-      shader: {fileID: 4800000, guid: 041c3ea843ec4e449a48be4702b425eb, type: 3}
-      passType: 0
-      passId: 0
-      subShaderIndex: 0
-      upToDate: 0
-      keywords:
-        "\L\u2025": []
   - ParsedSubShaders:
     - Index: 0
       Passes:
@@ -12984,4 +13049,4 @@ MonoBehaviour:
         - UNITY_UI_ALPHACLIP
         - UNITY_UI_CLIP_RECT
   _modifiedShaders: []
-  invalidShaders: 1
+  invalidShaders: 0

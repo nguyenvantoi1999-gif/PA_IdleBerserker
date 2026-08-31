@@ -1443,10 +1443,6 @@
                 "excluded": true
             },
             {
-                "name": "UnityEngine.AnimatorTransitionInfo",
-                "excluded": true
-            },
-            {
                 "name": "UnityEngine.Assertions.Assert",
                 "excluded": true
             },
@@ -1912,10 +1908,6 @@
             },
             {
                 "name": "UnityEditor.Animations.AnimatorTransition",
-                "excluded": true
-            },
-            {
-                "name": "UnityEngine.AnimatorTransitionInfo.NoTransitionInfo",
                 "excluded": true
             },
             {
@@ -3308,7 +3300,7 @@
             },
             {
                 "name": "UnityEngine.AnimationEvent",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.AnimationEventSource",
@@ -4860,7 +4852,7 @@
             },
             {
                 "name": "UnityEngine.SerializeFieldAttribute",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.ShadowmaskMode",
@@ -9533,6 +9525,10 @@
             {
                 "name": "PlayerSkill_9_Active",
                 "excluded": true
+            },
+            {
+                "name": "PoolInitOption",
+                "excluded": false
             }
         ],
         "unusedMethods": [
@@ -10094,7 +10090,7 @@
                     },
                     {
                         "name": "clip64",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "clipu64",
@@ -10184,7 +10180,7 @@
                     },
                     {
                         "name": "format",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "equals",
@@ -20588,7 +20584,7 @@
                     },
                     {
                         "name": "localPosition#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "localPosition#set",
@@ -20632,11 +20628,11 @@
                     },
                     {
                         "name": "localRotation#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "localRotation#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "rotation#get",
@@ -20832,7 +20828,7 @@
                     },
                     {
                         "name": "SetAsLastSibling",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetSiblingIndex",
@@ -22214,7 +22210,7 @@
                     },
                     {
                         "name": "anchorMax#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "anchorMax#set",
@@ -22222,7 +22218,7 @@
                     },
                     {
                         "name": "anchorMin#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "anchorMin#set",
@@ -24408,7 +24404,7 @@
                     },
                     {
                         "name": "OnDidApplyAnimationProperties",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnRectTransformDimensionsChange",
@@ -32970,7 +32966,7 @@
                     },
                     {
                         "name": "insideUnitCircle#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "rotation#get",
@@ -35966,7 +35962,7 @@
                     },
                     {
                         "name": "HashToString",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "NoticeNameHash",
@@ -36214,11 +36210,11 @@
                     },
                     {
                         "name": "SetTrigger$1",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetTrigger",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ResetTrigger$1",
@@ -42624,7 +42620,7 @@
                     },
                     {
                         "name": "OnStateExit",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -42698,7 +42694,7 @@
                     },
                     {
                         "name": "CheckTransitionExitTimeCondition",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -43066,7 +43062,7 @@
                     },
                     {
                         "name": "OnDidApplyAnimationProperties",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ModifyMesh",
@@ -44387,6 +44383,170 @@
                     {
                         "name": "GetChance",
                         "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "DamageText",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "InitComponent",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Show",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetAnimationID",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Hide",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "ObjectPool$2",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "GetActiveObjectCount#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Start",
+                        "excluded": false
+                    },
+                    {
+                        "name": "InitPool",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetPooledObject",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ExpandPool",
+                        "excluded": true
+                    },
+                    {
+                        "name": "HideAll",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "DamageTextFactory",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "inherits",
+                        "excluded": false
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ToggleRandomPosition",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Show",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.AnimatorTransitionInfo",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "FromAlpha#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ToAlpha#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Complete#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Pending#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "$ctor1",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "AddTime",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IsName",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.AnimatorTransitionInfo.NoTransitionInfo",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "IsName",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "DamageNumberExtension",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ToUnitString",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ToUnitString$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ToUnitString$1",
+                        "excluded": true
                     }
                 ]
             }

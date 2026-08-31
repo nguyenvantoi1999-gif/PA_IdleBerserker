@@ -51,7 +51,9 @@ namespace IdleBattle
             Color c = crit ? new Color(1f, 0.85f, 0.2f) : Color.white;
             float size = crit ? 0.75f : 0.55f;
             Vector3 pos = _ownerObject.PositionCenter + new Vector3(Random.Range(-0.25f, 0.25f), 0.25f, -0.2f);
-            DamagePopup.Spawn(pos, Mathf.CeilToInt((float)d.Value).ToString(), c, size);
+            var dmgFactory = DamageTextFactory.Instance;
+            if (dmgFactory != null) { dmgFactory.Show(pos, d); }
+            else { DamagePopup.Spawn(pos, Mathf.CeilToInt((float)d.Value).ToString(), c, size); }
             if (_bar != null) { _bar.SetRatio(_ownerObject.HealthPercent); }
         }
 
