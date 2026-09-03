@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Playable/PlayableAd.unity
     guid: 0d98aeede1a81461a918fda49caf61ac
   - enabled: 1

@@ -138,3 +138,89 @@ Thay `BackgroundController` (bản nhẹ trước đó, ĐÃ XOÁ) bằng **Back
 Verify play: BackgroundManager pos follow player + **offset Y=5**; World1 (5 layer + texture); **FX_Background particle chạy**; berserk → **FX_Berserker_Background_01 active+play**, thoát → tắt. 0 lỗi.
 
 Đổi nền: `BackgroundManager._autoStageIndex` (0..3 = World1-4) hoặc gọi `SetStageBackground(index)`. Thêm nền: nối prefab World khác vào `_stageBackgrounds`.
+
+---
+
+## Cập nhật: FX_Berserker_Background_01 active nhưng không thấy
+
+Đã xác định nguyên nhân: **thiếu sorting layer `FX1` trong PA**.
+
+- `FX_Berserker_Background_01.prefab` là bản giống hệt game gốc; `BackgroundManager.SetActiveBerserkBackground(true)` cũng đã active và gọi `Play()` đúng.
+- Các `ParticleSystemRenderer` con của FX đang serialize `m_SortingLayerID: 824049247`, tương ứng layer **`FX1`** trong `berserkeridle-mobile-client/ProjectSettings/TagManager.asset`.
+- PA hiện chỉ có layer `Default`. Background World1 dùng `Default`, order `-50..-10`; FX có order `-999..-994`. Khi `FX1` thiếu, renderer rơi về Default/ID không hợp lệ và bị background che hết.
+
+### Cách sửa khuyến nghị
+
+Thêm sorting layer vào `ProjectSettings/TagManager.asset` theo đúng thứ tự và ID của game gốc:
+
+```yaml
+- name: FX1
+  uniqueID: 824049247
+  locked: 0
+```
+
+`FX1` phải đứng **sau `Default`**. Khi đó FX vẫn giữ order âm để ở sau character, nhưng được render phía trên background Default. Không tăng sorting order thủ công từng ParticleSystem: prefab có nhiều renderer và cách đó dễ sai layer/che nhân vật.
+
+Chưa áp dụng thay đổi TagManager ở thời điểm ghi handoff này; cần thêm layer rồi Play-test berserk background.
+
+---
+
+## Cập nhật: UI HUD binder + EnemySpawnManager loop/CallBoss
+
+User kéo nguyên cây UI ingame vào `BattleDemo` (Canvas ScreenSpaceOverlay), các GameObject KHÔNG có script controller (chỉ Image/Button). Đã viết binder nhẹ (poll thay hệ GameEvent gốc) trong `Assets/_Battle/UI/` + wire qua SerializedObject:
+
+- `UIBerserkGaugeBinder` (trên `UI_BerserkGauge`): fill=BerserkGaugeImage (material `LeftHP`/shader `Custom/Fluide`, prop `_FillLevel`), button=BerserkGaugeFrame, animator=FX_UI_BerserkGauge, toggle=ToggleAutoBerserk. Poll `BerserkAbility` (fill GaugeRatio/RemainRatio; click→`SetBerserkState(true)`; toggle→`IsAuto`).
+- `UICompanionSkillIconBinder` (4 icon nhóm Companion, slot 0..3) → `CompanionSkillManager.Skills[slot]`.
+- `UIPlayerSkillIconBinder` (4 icon nhóm Active, slot 0..3) → `PlayerSkillDriver.Skills[slot]`.
+- `UIAutoSkillToggleBinder` (ToggleAutoSkill) → set `AutoUse` cho **CẢ** CompanionSkillManager LẪN PlayerSkillDriver.
+- API bind thêm: `BerserkAbility.RemainRatio` (+ `_duration`); `Skills`/`Icons` (IReadOnlyList) + `AutoUse` + **`AutoUseInterval`** (float, mặc định 1s = giãn cách 2 lần auto) trên cả 2 manager; `CompanionSkillManager.BuildRuntimeSkillBar=false`.
+
+**Bắt buộc:** scene phải có **EventSystem** (đã thêm) — thiếu thì mọi nút UI không bấm được. Icon con `ImageSkillIcon` trong prefab ingame tắt sẵn → binder bật (`enabled=true`, alpha=1). Nút cần `raycastTarget=true` trên Image khung + xoá persistent onClick cũ (trỏ script gốc đã mất). Nhóm Active có `OnLock`/`OnGroggyLock` bật sẵn → tắt (playable ad không khoá).
+
+Icon skill: `04_Sprite/AtlasIcon_DonTouch/Icon_Skill_NN` (single sprite). Map **fieldID N → Icon_Skill_(N+1)**; gán vào cả `SkillEffectPreset.Icon` (driver tự lấy) lẫn UI `ImageSkillIcon`.
+
+`EnemySpawnManager` (`_Battle/Demo/`): enemy loop **vô tận** (bỏ spawn boss theo đợt), boss gọi qua `public void CallBoss()` (dedup: 1 boss, chết mới gọi lại) — nút UI kéo-thả OnClick → CallBoss.
+
+---
+
+## Cập nhật: PlayerSkill (38 skill) + DamageTextFactory
+
+- **PlayerSkill**: port `02_Script/Battle/Skill/PlayerSkill/` (base + PlayerActiveSkill/PlayerPassiveSkill + PlayerSkill_0..37 + SpecSkill + PlayerSkillStubs) — global namespace, dùng lại hạ tầng CompanionSkill (Buff/SkillEffectPreset). Driver PA-native `Assets/_Battle/Ability/PlayerSkillDriver.cs` (: CharacterAbility, giống CompanionSkillManager): `GameObject[] SkillPrefabs` + `AutoUse` + `AutoUseInterval`, expose `Skills`/`Icons`. Đã gắn vào PlayerObject.prefab + 4 prefab active copy từ gốc (`03_Prefab/Battle/Skill/BersekerSkill/PlayerSkill_0..3`) + wire 4 icon Active. **KHÔNG** port `Manager/PlayerSkillManager.cs` gốc (coupling nặng). Bổ sung `IdleBattle.Enum_DamageType` += Poison/PoisonDamage/BurnDamage/Evasion + `Enum_EffectTrigger` stub cho PlayerSkill_28. Chi tiết: bản Claude project doc `player-skill-port.md`.
+- **DamageTextFactory**: `02_Script/Lib/ObjectPool/ObjectPool.cs` + `02_Script/Battle/DamageText/` (DamageText + DamageTextFactory + `DamageNumberExtension.ToUnitString` nhẹ K/M/B). Prefab `03_Prefab/Battle/DamageText/DamageTextFactory.prefab` (Canvas WorldSpace **scale 0.009**, pool 16, controller FX_DamageText + ~18 anim). Instance trong BattleDemo; `HealthUI.HandleDamaged` gọi `DamageTextFactory.Instance.Show(worldPos, d)` thay DamagePopup. Chi tiết: `damagetext-port.md`.
+
+---
+
+## Cập nhật: fix combat "đứng đánh/cast khi mục tiêu đã chết"
+
+Triệu chứng: enemy chết nhưng player chạy hết animation combo/skill, không tới mục tiêu kế còn xa. Nguyên nhân: state khoá trọn animation (Detect/Death/ReportKill đều đúng ngay lập tức). Fix trong `_Battle/States/PlayerStates.cs` + `_Battle/Ability/PlayerSkillAbility.cs`:
+
+1. `BerserkerAttackState`: gộp windup/hit/recovery thành 1 frame-loop; **huỷ đòn CHỈ trong windup** (`if (!_hit && !_detect.Detect(AttackRange)) break;`) — mục tiêu chết trước khi đòn trúng thì bỏ swing đi tìm mục tiêu kế. Sau khi đã trúng đòn thì để animation chạy hết recovery rồi mới re-check (chủ ý, tránh giật anim).
+2. `PlayerSkillAbility.HasTarget()`: siết phạm vi kích từ `DetectRange*2`(16) → **`AttackRange`** (chỉ tung skill khi quái sát; Active vẫn quét AoE `AttackRange+5`).
+3. `BerserkerSkillState`: early-out — huỷ cast nếu `!_detect.Detect(AttackRange+5)`; chỉ ResetCooldown+Active khi không huỷ.
+
+Verify: sample ~9 lần, player chỉ Attack/Skill khi nearestDx≤~1, còn lại Run tiến đều; 0 lỗi.
+
+---
+
+## Cập nhật: fix build Unity Playworks (Luna)
+
+- **`Addressable bundle #0 contains multiple assets`**: asset copy từ gốc mang **Asset Bundle label**. Xoá `assetBundleName`/`assetBundleVariant` mọi `.meta` (`sed -i -E 's/^( *assetBundleName:).*/\1/; s/^( *assetBundleVariant:).*/\1/'`) + `AssetDatabase.RemoveAssetBundleName(n,true)`; kiểm `GetAllAssetBundleNames()==0`. **Mỗi lần copy asset gốc phải làm lại.**
+- **`Image.Origin360` không tồn tại** khi build: dùng literal `fillOrigin = 2` (Radial360 Top) — đã áp cho UIPlayerSkillIconBinder/UICompanionSkillIconBinder.
+- **`CultureInfo` → int overload lỗi** (`DamageNumberExtension.cs`): bỏ `using System.Globalization` + `.ToString(CultureInfo...)` → `.ToString()`/`.ToString(fmt)`.
+
+(Chi tiết combat + build: Claude project doc `combat-and-build-fixes.md`.)
+
+---
+
+## Cập nhật: BGM theo trạng thái (thường / berserk)
+
+Dùng lại `SoundManager` sẵn có (đã có `BackgroundClips` + `PlayBackground(name)`), không viết hệ mới.
+
+- Copy 2 clip từ gốc `10_Sound/BGM/` (guid-preserving): `berserk_bgm_normal` (thường, ~38s loop) + `berserk_bgm_berserkmode` (~7.5s loop). Import nén: **Vorbis, mono, q0.35, CompressedInMemory** (giảm size cho playable/WebGL). Gán cả 2 vào `SoundManager.BackgroundClips` (register theo tên clip).
+- Wire 3 hook (SoundManager ở global namespace, gọi từ IdleBattle OK):
+  - `EnemySpawnManager` sau `BattleManager.State = Start` → `PlayBackground("berserk_bgm_normal", true)`.
+  - `BerserkerObject.BerserkOnRoutine` (sau `SetActiveBerserkBackground(true)`) → `PlayBackground("berserk_bgm_berserkmode", true)`.
+  - `BerserkerObject.SetBerserkState(false)` (sau `SetActiveBerserkBackground(false)`) → `PlayBackground("berserk_bgm_normal", true)`.
+  - Tất cả guard `if (SoundManager.Instance != null)`.
+- `PlayBackground` không restart nếu đang phát đúng clip; key lookup = tên AudioClip. Verify play-test: start=normal, vào berserk=berserkmode, thoát=normal — đều `playing=True`, 0 lỗi.
+- Đổi nhạc: thay clip trong `SoundManager.BackgroundClips` (giữ đúng tên) hoặc đổi chuỗi tên trong 3 hook. Lưu ý size: normal gốc 6.5MB WAV → sau nén Vorbis mono nhỏ hơn nhiều; nếu cần playable cực nhẹ, trim clip ngắn lại.

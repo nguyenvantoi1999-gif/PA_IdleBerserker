@@ -16,7 +16,8 @@ public class BackgroundSet : MonoBehaviour
 
     [SerializeField] private List<Texture> _textures;
     [SerializeField] private List<Background> _layers;
-
+    [SerializeField] private List<Material> _mats;
+    
     public void Init(List<Material> mats)
     {
         if (_layers == null || _layers.Count <= 0)
@@ -29,7 +30,14 @@ public class BackgroundSet : MonoBehaviour
             _layers[i].SetTexture(_textures[i], mats[i]);
         }
     }
-    
+    [ContextMenu("SetTexture")]
+    public void SetTexture()
+    {
+        for (var i = 0; i < _layers.Count; i++)
+        {
+            _mats[i].mainTexture = _textures[i];
+        }
+    }
     public void Refresh(Vector3 playerPosition, float scrollSpeed)
     {
         foreach (var t in _layers)

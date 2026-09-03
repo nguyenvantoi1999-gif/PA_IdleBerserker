@@ -24,6 +24,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8764732881167774718}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -31,7 +32,6 @@ Transform:
   m_Children:
   - {fileID: 2367602182044960729}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &-3443803073731180534
 MonoBehaviour:
@@ -55,6 +55,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 1043207909093466756}
     m_Modifications:
     - target: {fileID: 5995060885033260462, guid: 721bb7ba7f677ee4aaffbe420c88e0cf, type: 3}
@@ -105,7 +106,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: FX_CompanionSkill_6
       objectReference: {fileID: 0}
+    - target: {fileID: 5995060885487639956, guid: 721bb7ba7f677ee4aaffbe420c88e0cf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5995060885690701068, guid: 721bb7ba7f677ee4aaffbe420c88e0cf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5995060885878983466, guid: 721bb7ba7f677ee4aaffbe420c88e0cf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5995060885907249216, guid: 721bb7ba7f677ee4aaffbe420c88e0cf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5995060886075783066, guid: 721bb7ba7f677ee4aaffbe420c88e0cf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 721bb7ba7f677ee4aaffbe420c88e0cf, type: 3}
 --- !u!198 &2367602182044960710 stripped
 ParticleSystem:

@@ -48,22 +48,22 @@ TagManager:
     uniqueID: 1596041547
     locked: 0
   - name: FX2
-    uniqueID: 0
+    uniqueID: 3132519417
     locked: 0
   - name: InGameUI
     uniqueID: 1976386029
     locked: 0
   - name: UI
-    uniqueID: 0
+    uniqueID: 3928098901
     locked: 0
   - name: UIFX
-    uniqueID: 0
+    uniqueID: 4201925971
     locked: 0
   - name: Popup
-    uniqueID: 0
+    uniqueID: 2814737849
     locked: 0
   - name: PopupFX
-    uniqueID: 0
+    uniqueID: 2949661323
     locked: 0
   m_RenderingLayers:
   - Default

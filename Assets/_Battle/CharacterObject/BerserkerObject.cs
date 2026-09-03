@@ -63,6 +63,7 @@ namespace IdleBattle
                 _berserkAbility.ResetBerserk();
                 OnBerserkFinish();
                 BackgroundManager.Instance.SetActiveBerserkBackground(false);
+                if (SoundManager.Instance != null) { SoundManager.Instance.PlayBackground("berserk_bgm_normal", true); }
             }
         }
 
@@ -79,6 +80,7 @@ namespace IdleBattle
                 CombatFeedback fb = GetAbility<CombatFeedback>();
                 if (fb != null) { fb.OnBerserkStart(); }
                 BackgroundManager.Instance.SetActiveBerserkBackground(true);
+                if (SoundManager.Instance != null) { SoundManager.Instance.PlayBackground("berserk_bgm_berserkmode", true); }
             }
             _settingBerserk = false;
         }

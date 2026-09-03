@@ -66,6 +66,7 @@ MonoBehaviour:
   - {fileID: 489135738366619272}
   - {fileID: 6881283749603031233}
   - {fileID: 2558315086589539212}
+  _mats: []
 --- !u!1 &912204757700511924
 GameObject:
   m_ObjectHideFlags: 0
@@ -370,7 +371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 0.06
-  _sortingLayer: Default
+  _sortingLayer: FX2
   _sortOrder: -10
 --- !u!1 &7104452730062037487
 GameObject:

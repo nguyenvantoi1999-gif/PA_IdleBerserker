@@ -28,8 +28,8 @@ RectTransform:
   m_GameObject: {fileID: 3362579548698141446}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.009, y: 0.009, z: 0.009}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.027, y: 0.027, z: 0.027}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 3362579548201534437}
   m_Father: {fileID: 0}
@@ -84,7 +84,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &3362579548698141445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,6 +210,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 7087890563867917811, guid: 39b512a9795ef46b4bd3d84e95c33df4, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 7c789a9feed29da4d95835eee39e51a9, type: 3}
     - target: {fileID: 7357772491617961232, guid: 39b512a9795ef46b4bd3d84e95c33df4, type: 3}
       propertyPath: m_Layer
       value: 3

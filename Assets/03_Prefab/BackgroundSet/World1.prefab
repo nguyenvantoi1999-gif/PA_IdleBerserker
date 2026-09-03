@@ -270,6 +270,12 @@ MonoBehaviour:
   - {fileID: 6788533926784289430}
   - {fileID: 6391339888577117899}
   - {fileID: 7090915195851648758}
+  _mats:
+  - {fileID: 2100000, guid: 8f80b3d893fe9a04ab1fd0624603d7bb, type: 2}
+  - {fileID: 2100000, guid: dc01cbec78335bb4885d061c9ef91293, type: 2}
+  - {fileID: 2100000, guid: 2f67e001882af4444b5fe0b7f9d794d9, type: 2}
+  - {fileID: 2100000, guid: 3addddcc2a009494e87f828458947641, type: 2}
+  - {fileID: 2100000, guid: 74b9b3055bdc6ab47af44c9841ba2a28, type: 2}
 --- !u!1 &3613727161931127871
 GameObject:
   m_ObjectHideFlags: 0
@@ -574,5 +580,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 0.06
-  _sortingLayer: Default
+  _sortingLayer: FX2
   _sortOrder: -10

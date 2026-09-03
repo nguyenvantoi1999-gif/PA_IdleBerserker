@@ -42,6 +42,7 @@ namespace IdleBattle
                 new GameObject("BattleManager").AddComponent<BattleManager>();
             }
             BattleManager.Instance.State = Enum_BattleState.Start;
+            if (SoundManager.Instance != null) { SoundManager.Instance.PlayBackground("berserk_bgm_normal", true); }
             StartCoroutine(SpawnLoop());
         }
 
